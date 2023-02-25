@@ -1,4 +1,5 @@
 import func , json
+import comp as Comp
 import nextwave as wavelink
 from func import emojis
 from nextcord import *
