@@ -58,3 +58,6 @@ async def TagUpdate(inter : Interaction , text : str):
         else:
             Text = ["There are no suggested search terms."]
     await inter.response.send_autocomplete(Text)
+
+    
+client.run("TOKEN")
